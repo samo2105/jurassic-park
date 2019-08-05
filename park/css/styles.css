@@ -31,6 +31,8 @@ body{
   .navbar img{
     margin-top: -1vh;
     margin-bottom: -10vh;
+    width: 28vh;
+    height: 17vh
   }
   .navbar ul{
     margin-top: 9vh
