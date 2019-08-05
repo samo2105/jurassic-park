@@ -1,0 +1,41 @@
+.navbar img{
+  width: 31vh;
+  height: 20vh;
+  margin-top: 10vh
+}
+.navbar{
+  transition: 0.5s;
+  opacity: 0.8;
+  max-height: 10vh
+}
+.navbar:hover{
+  opacity: 1
+}
+body{
+  color:white;
+  background-color: black;
+}
+.page-footer{
+  color:white;
+  margin-right: 0;
+  margin-left: 0
+}
+.card img{
+  height: 50vh
+}
+@media screen and (max-width: 991px){
+  .navbar{
+    max-height: 100vh;
+    opacity: 1
+  }
+  .navbar img{
+    margin-top: -1vh;
+    margin-bottom: -10vh;
+  }
+  .navbar ul{
+    margin-top: 9vh
+  }
+  .carousel img{
+    height: 70vh
+  }
+}

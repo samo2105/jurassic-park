@@ -1,0 +1,166 @@
+.carousel img{
+  height: 80vh
+}
+.navbar img{
+  width: 31vh;
+  height: 20vh;
+  margin-top: 10vh
+}
+.navbar{
+  transition: 0.5s;
+  opacity: 0.8;
+  max-height: 10vh
+}
+.navbar:hover{
+  opacity: 1
+}
+body{
+  color:white;
+  background-color: black;
+}
+.page-footer{
+  color:white;
+  margin-right: 0;
+  margin-left: 0
+}
+.card img{
+  height: 50vh
+}
+#Helicopter{
+  height: 60vh
+}
+.col-md-4 img{
+  height: 30vh
+}
+@media screen and (max-width: 992px){
+  .navbar{
+    max-height: 100vh;
+    opacity: 1
+  }
+  .navbar img{
+    margin-top: -2vh;
+    margin-bottom: -10vh;
+    width: 28vh;
+    height: 17vh
+  }
+  .navbar ul{
+    margin-top: 9vh
+  }
+  .carousel img{
+    height: 60vh
+  }
+}
+
+
+#defnic.gps-button-wrapper a.gps-button {
+    background-color: rgba(255,255,255,0);
+    border: 2px solid #106fe7;
+    border-radius: 100px;
+    color: #106fe7;
+    display: inline-block;
+    font: normal normal 18px / 18px "Palanquin Dark", Helvetica, Arial, Verdana, sans-serif;
+    overflow: hidden;
+    padding: 8px 25px 10px;
+    position: relative;
+    text-decoration: none;
+    transition: all .75s ease-in-out;
+    z-index: 1; }
+#defnic.gps-button-wrapper a.gps-button:hover,
+#defnic.gps-button-wrapper a.gps-button:focus {
+    color: #fff;
+    transition: all .75s ease-in-out; }
+
+#defnic.gps-button-wrapper a.gps-button::before {
+    background: linear-gradient(#106fe7, #106fe7) -100px 0 no-repeat;
+    content: "";
+    display: inline-block;
+
+    height: 10em;
+    width: 200%;
+
+    opacity: 0;
+
+    position: absolute;
+    top: 0;
+    left: -30%;
+
+    -webkit-transform: skewX(-30deg) translateX(-80%);
+        -ms-transform: skewX(-30deg) translateX(-80%);
+            transform: skewX(-30deg) translateX(-80%);
+
+    transition: opacity .75s ease-in-out, -webkit-transform 0s .85s;
+    transition: opacity .75s ease-in-out, -ms-transform 0s .85s;
+    transition: opacity .75s ease-in-out, transform 0s .85s;
+
+    z-index: -1; }
+#defnic.gps-button-wrapper a.gps-button:hover::before,
+#defnic.gps-button-wrapper a.gps-button:focus::before {
+    opacity: 1;
+
+    -webkit-transform: skewX(-30deg) translateX(0);
+        -ms-transform: skewX(-30deg) translateX(0);
+            transform: skewX(-30deg) translateX(0);
+
+    transition: -webkit-transform 1s ease-in-out;
+    transition: -ms-transform 1s ease-in-out;
+    transition: transform 1s ease-in-out; }
+
+/* STRIPE BUTTONS */
+#defnic.stripe {
+		background-image:	linear-gradient(to bottom, #106fe7, #084c9d);
+}
+
+.stripe #defnic.gps-button-wrapper a.gps-button {
+    background-color: #fff;
+    border-color: #fff;
+    color: #106fe7; }
+.stripe #defnic.gps-button-wrapper a.gps-button:not(.subtle)::before {
+    background-image: none; }
+
+.stripe #defnic.gps-button-wrapper a.gps-button:hover,
+.stripe #defnic.gps-button-wrapper a.gps-button:focus {
+    border-color: #23bc82;
+    box-shadow: 0 0 15px 5px rgba(18, 236, 192, .35), 0 0 0 7px rgba(0, 255, 198,.15), inset 0 0 15px 2px #c6f3ff; }
+
+.stripe #defnic.gps-button-wrapper a.gps-button.subtle {
+    background-color: rgba(255,255,255,0);
+    color: #fff; }
+.stripe #defnic.gps-button-wrapper a.gps-button.subtle::before {
+    background-image: linear-gradient(#fff, #fff); }
+.stripe #defnic.gps-button-wrapper a.gps-button.subtle:hover,
+.stripe #defnic.gps-button-wrapper a.gps-button.subtle:focus {
+    border-color: #23bc82;
+    box-shadow: 0 0 15px 5px rgba(18, 236, 192, .35), 0 0 0 7px rgba(0, 255, 198,.15), inset 0 0 15px 2px #c6f3ff;
+    color: #106fe7; }
+
+.stripe #defnic.gps-button-wrapper a.gps-button.button-2:hover,
+.stripe #defnic.gps-button-wrapper a.gps-button.button-2:focus {
+    border-color: #49b5fd;
+    box-shadow: 0 0 15px 5px rgba(18, 236, 192, .35), 0 0 0 7px rgba(0,255,239,.1), inset 0 0 15px 2px #e1e6f7; }
+
+.stripe #defnic.gps-button-wrapper a.gps-button.button-2.subtle:hover,
+.stripe #defnic.gps-button-wrapper a.gps-button.button-2.subtle:focus {
+    border-color: #49b5fd;
+    box-shadow: 0 0 15px 5px rgba(18, 236, 192, .35), 0 0 0 7px rgba(0,255,239,.1), inset 0 0 15px 2px #e1e6f7;
+    color: #00d463; }
+
+.stripe #defnic.gps-button-wrapper a.gps-button.button-2:hover,
+.stripe #defnic.gps-button-wrapper a.gps-button.button-2:focus {
+	color: #00d463; }
+
+.stripe #defnic.gps-button-wrapper a.gps-button.small:hover,
+.stripe #defnic.gps-button-wrapper a.gps-button.small:focus,
+.stripe #defnic.gps-button-wrapper a.gps-button.subtle.small:hover,
+.stripe #defnic.gps-button-wrapper a.gps-button.subtle.small:focus {
+    box-shadow: 0 0 15px 5px rgba(18, 236, 192, .35), 0 0 0 7px rgba(0, 255, 198,.12), inset 0 0 15px 2px #c6f3ff; }
+.stripe #defnic.gps-button-wrapper a.gps-button.button-2.small:hover,
+.stripe #defnic.gps-button-wrapper a.gps-button.button-2.small:focus,
+.stripe #defnic.gps-button-wrapper a.gps-button.button-2.subtle.small:hover,
+.stripe #defnic.gps-button-wrapper a.gps-button.button-2.subtle.small:focus {
+    box-shadow: 0 0 15px 5px rgba(18, 236, 192, .3), 0 0 0 7px rgba(0,255,239,.09), inset 0 0 15px 2px #e1e6f7;
+}
+
+.stripe #defnic.gps-button-wrapper a.gps-button.subtle.dull:hover,
+.stripe #defnic.gps-button-wrapper a.gps-button.subtle.dull:focus {
+    border-color: #fff;
+    box-shadow: none !important; }
